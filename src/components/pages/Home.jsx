@@ -58,18 +58,15 @@ import Alert from 'react-bootstrap/Alert';
 
 function Home() {
   return (
-    <Alert variant="primary">
+    <Alert variant="danger">
       <Card.Img  class="name" variant="start"  src={Image} style={{ width: "20%" }} alt="Manasa"  />
       <Alert.Heading class="hi">Hi My Name Is Manasa</Alert.Heading>
       <p>
-        Aww yeah, you successfully read this important alert message. This
-        example text is going to run a bit longer so that you can see how
-        spacing within an alert works with this kind of content.
+       I am a Full Stack Web Developer
       </p>
       <hr />
       <p className="mb-0">
-        Whenever you need to, be sure to use margin utilities to keep things
-        nice and tidy.
+       
       </p>
     </Alert>
   );

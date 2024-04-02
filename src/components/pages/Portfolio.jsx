@@ -32,8 +32,8 @@ function Portfolio() {
 
     <>
       <div class="project">
-        <Card border="primary" style={{ width: "18rem" }}>
-          <Card.Header>Project 1 </Card.Header>
+        <Card  border="primary password" style={{ width: "18rem" }}>
+          <Card.Header>Password_Generator</Card.Header>
           <Card.Body>
             <Card.Img
               variant="top"
